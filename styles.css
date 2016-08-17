@@ -1,0 +1,189 @@
+/*CSS RESET*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*BEGINNING OF MY CSS*/
+
+
+body {
+	background-image: url("images/flowers.jpg");
+	background-position: top center;
+	background-size: 100%;
+	background-attachment: fixed;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+aside {
+	float: left;
+	margin-left: 3%;
+	max-width: 20%;
+	height: 1225px;
+	background-color: #cc0044;
+}
+
+main {
+	display: inline-block;
+	max-width: 40%;
+	height: 1225px;
+	background-color: white;
+}
+
+
+h1 {
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	padding: 20px 0;
+	font-size: 1.75em;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+h3 {
+	margin: 10px 0 5px 25px;
+	padding: 10px 0;
+	font-size: 1.75em;
+	font-weight: bold;
+	color: #cc0044;
+}
+
+h4 {
+	margin: 0 0 5px 25px;
+	font-size: 1.25em;
+	font-style: italic;
+}
+
+a {
+	color: rgb(50, 150, 0);
+}
+
+a:hover {
+	color: rgb(250, 200, 0);
+}
+
+p {
+	font-size: 0.75em;
+	line-height: normal;
+	padding: 10px;
+}
+
+.sidebar {
+	padding: 5px 25px;
+	text-align: left;
+	color: white;
+}
+
+.content {
+	margin: 0 0 -8px 20px;
+	padding: 5px;
+}
+
+.copyright {
+	margin-top: 40px;
+	text-align: center;
+	color: #cc0044;
+}
+
+ul {
+	margin: 20px 0 20px 45px;
+	padding-right: 25px;
+	font-size: 0.75em;
+	line-height: normal;
+}
+
+li {
+	list-style-type: disc;
+}
+
+table {
+	margin-left: 25px;
+	font-size: 0.75em;
+}
+
+td {
+	padding: 10px 30px 0 0;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+#me {
+	max-width: 80%;
+	padding-top: 25px;
+}
+
+#separator {
+	max-width: 30%;
+	padding-top: 25px;
+}
+
+#contact {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	max-width: 10%;
+}
+
+.clearfix {
+	content: "";
+    display: table;
+    clear: both;
+}
